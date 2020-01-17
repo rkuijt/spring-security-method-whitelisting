@@ -6,7 +6,7 @@
 	<!-- Application Metadata -->
 	<groupId>com.rkuijt</groupId>
 	<artifactId>spring-security-method-whitelisting</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>spring-security-method-whitelisting</name>
 	<description>Spring Boot does not provide a way to whitelist controller methods by default. By using the custom MethodSecurityMetadataSource provided by this package, all
 		requests to controller methods that are not explicitly annotated will be denied by default. This provides better security in situations where developers forget to

@@ -1,5 +1,5 @@
-[![Actions Status](https://github.com/rkuijt/spring-security-method-whitelisting/workflows/Release/badge.svg)](https://github.com/rkuijt/spring-security-method-whitelisting/actions)
-
+[![Actions Status](https://github.com/rkuijt/spring-security-method-whitelisting/workflows/Build/badge.svg)](https://github.com/rkuijt/spring-security-method-whitelisting/actions)
+[![Actions Status](https://github.com/rkuijt/spring-security-method-whitelisting/workflows/Publish/badge.svg)](https://github.com/rkuijt/spring-security-method-whitelisting/actions)
 # Spring Boot Controller Method Whitelisting
 _Resources should be protected by default_
 
