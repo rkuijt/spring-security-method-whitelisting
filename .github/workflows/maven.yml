@@ -20,6 +20,4 @@ jobs:
         java-version: 11
 
     - name: Build and publish package with Maven
-      run: mvn deploy --file pom.xml -Dregistry=https://maven.pkg.github.com/rkuijt -DaltDeploymentRepository=github::default::https://maven.pkg.github
-      .com/rkuijt/spring-security-method-whitelisting -Dtoken=${{secrets
-      .GITHUB_TOKEN}}
+      run: mvn deploy --file pom.xml -Dregistry=https://maven.pkg.github.com/rkuijt -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/rkuijt/spring-security-method-whitelisting -Dtoken=${{secrets.GITHUB_TOKEN}}
