@@ -59,7 +59,7 @@ public class SecureMethodSecurityMetadataSource extends AbstractFallbackMethodSe
     /**
      * Holds the annotation classes which should be checked for. If these are found on the type then we do not deny access.
      */
-    private Set<Class<? extends Annotation>>  securityAnnotations = new HashSet<>(Arrays.asList(
+    private final Set<Class<? extends Annotation>>  securityAnnotations = new HashSet<>(Arrays.asList(
             PreAuthorize.class,
             PostAuthorize.class,
             Secured.class
