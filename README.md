@@ -158,7 +158,7 @@ You can use annotations provided by Spring Boot to control access to resources:
 ### Additional Annotations
 The library includes some additional annotations to make life easier:
 
-`@Authenticated` : Allows authenticated users to access the annotated (Any role)  
+`@Authenticated` : Allows authenticated users (Any role) to access the annotated resource  
 `@Public` : Allows everyone to access a specified resource
 
 
